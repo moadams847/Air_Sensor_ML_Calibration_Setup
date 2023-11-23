@@ -14,4 +14,16 @@ import os
 
 @dataclass
 class DataTransformationConfig:
-    preprocessors_obj_file_path = os.path.join('artifacts', '[processor.pkl')
+    preprocessors_obj_file_path = os.path.join('artifacts', 'processor.pkl')
+
+class DataTransformation:
+    def __init__(self):
+        self.data_transformation_config = DataTransformation()
+
+    def get_data_transformers(self):
+        try:
+            pass
+
+        except:
+            pass
+
