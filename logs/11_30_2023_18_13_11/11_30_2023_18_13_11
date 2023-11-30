@@ -1,0 +1,8 @@
+[ 2023-11-30 18:13:12,878 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2023-11-30 18:13:12,883 ] 31 root - INFO - Read the dataset as dataframe
+[ 2023-11-30 18:13:12,892 ] 37 root - INFO - Train test split initiated
+[ 2023-11-30 18:13:12,904 ] 44 root - INFO - Ingestion of the data is completed
+[ 2023-11-30 18:13:12,908 ] 80 root - INFO - Read train and test data completed successfully
+[ 2023-11-30 18:13:12,909 ] 81 root - INFO - Obtaining preprocessing objects
+[ 2023-11-30 18:13:12,909 ] 56 root - INFO - Numerical columns: ['PM2_5', 'RH', 'Temp']
+[ 2023-11-30 18:13:12,910 ] 95 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
