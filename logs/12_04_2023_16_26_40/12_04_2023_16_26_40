@@ -1,0 +1,11 @@
+[ 2023-12-04 16:26:42,472 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2023-12-04 16:26:42,478 ] 31 root - INFO - Read the dataset as dataframe
+[ 2023-12-04 16:26:42,492 ] 37 root - INFO - Train test split initiated
+[ 2023-12-04 16:26:42,511 ] 44 root - INFO - Ingestion of the data is completed
+[ 2023-12-04 16:26:42,520 ] 83 root - INFO - Read train and test data completed successfully
+[ 2023-12-04 16:26:42,520 ] 84 root - INFO - Obtaining preprocessing objects
+[ 2023-12-04 16:26:42,520 ] 58 root - INFO - Numerical columns: ['PM2_5', 'Hum', 'Temp']
+[ 2023-12-04 16:26:42,522 ] 98 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-12-04 16:26:42,533 ] 113 root - INFO - Saved preprocessing object
+[ 2023-12-04 16:26:42,535 ] 38 root - INFO - Split training and test input data
+[ 2023-12-04 16:26:44,797 ] 77 root - INFO - Best found model on both training and testing dataset
