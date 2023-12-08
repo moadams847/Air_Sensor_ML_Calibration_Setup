@@ -1,3 +1,0 @@
-[ 2023-12-08 17:20:35,561 ] 29 root - INFO - Entered the data ingestion method or component
-[ 2023-12-08 17:20:35,561 ] 31 root - INFO - Read the dataset as dataframe
-[ 2023-12-08 17:20:35,660 ] 35 root - INFO - Filter rows

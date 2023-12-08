@@ -14,6 +14,8 @@ from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 from src.utils import preprocess_data, filter_data
 
+import random
+random.seed(123)  
 
 @dataclass
 class DataIngestionConfig:

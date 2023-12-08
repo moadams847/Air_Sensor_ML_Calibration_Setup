@@ -1,3 +1,0 @@
-[ 2023-12-05 12:00:33,578 ] 96 werkzeug - WARNING -  * Debugger is active!
-[ 2023-12-05 12:00:33,586 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
-[ 2023-12-05 12:00:36,738 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 12:00:36] "POST /predictdata HTTP/1.1" 200 -

@@ -1,3 +1,0 @@
-[ 2023-12-06 09:15:34,173 ] 29 root - INFO - Entered the data ingestion method or component
-[ 2023-12-06 09:15:34,173 ] 31 root - INFO - Read the dataset as dataframe
-[ 2023-12-06 09:15:34,254 ] 35 root - INFO - Feature Engineering

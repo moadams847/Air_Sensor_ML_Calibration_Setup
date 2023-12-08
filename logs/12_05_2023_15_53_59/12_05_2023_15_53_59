@@ -1,5 +1,0 @@
-[ 2023-12-05 15:53:59,325 ] 96 werkzeug - WARNING -  * Debugger is active!
-[ 2023-12-05 15:53:59,331 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
-[ 2023-12-05 15:54:03,838 ] 32 root - INFO - Json data successfully converted to dataframe
-[ 2023-12-05 15:54:05,060 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 15:54:05] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
-[ 2023-12-05 15:55:50,549 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\src\\components\\data_transformation.py', reloading

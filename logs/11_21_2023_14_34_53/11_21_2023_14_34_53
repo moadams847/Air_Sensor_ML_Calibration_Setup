@@ -1,3 +1,0 @@
-[ 2023-11-21 14:34:54,405 ] 22 root - INFO - Starting data ingestion
-[ 2023-11-21 14:34:54,410 ] 25 root - INFO - Reading data as dataframe
-[ 2023-11-21 14:34:54,430 ] 31 root - INFO - Train test split

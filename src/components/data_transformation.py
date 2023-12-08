@@ -14,6 +14,9 @@ import os
 
 from src.utils import save_object
 
+import random
+random.seed(123)  
+
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path = os.path.join('artifacts', 'preprocessor.pkl')

@@ -193,6 +193,9 @@ from src.logger import logging
 
 from src.exception import CustomException
 
+import random
+random.seed(123)  
+
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)

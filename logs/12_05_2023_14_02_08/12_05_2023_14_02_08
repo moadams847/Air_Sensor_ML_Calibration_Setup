@@ -1,4 +1,0 @@
-[ 2023-12-05 14:02:08,447 ] 96 werkzeug - WARNING -  * Debugger is active!
-[ 2023-12-05 14:02:08,452 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
-[ 2023-12-05 14:02:12,900 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 14:02:12] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
-[ 2023-12-05 14:02:36,558 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\app.py', reloading
