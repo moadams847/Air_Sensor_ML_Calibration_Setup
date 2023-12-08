@@ -12,6 +12,7 @@ from src.components.data_transformation import DataTransformation
 
 from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
+from src.utils import preprocess_data, filter_data
 
 
 @dataclass
@@ -27,8 +28,15 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try:
-            df=pd.read_csv('notebook\data\merged_data.csv')
             logging.info('Read the dataset as dataframe')
+            df=pd.read_csv('notebook\data\Teledyne_vs_sensor_data_ENE00950.csv', parse_dates=['DataDate'])
+            df = df[['DataDate','PM2.5','PM2_5', 'PM_10', 'RH', 'Temp']]
+
+            logging.info('Filter rows')
+            df = filter_data(df)
+
+            logging.info('Engineer columns')
+            df = preprocess_data(df)
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
 
@@ -56,5 +64,12 @@ if __name__=="__main__":
     train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data, test_data)
 
     modeltrainer=ModelTrainer()
-    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))  
+    best_model_name, r_squred, correlation_, rmse_, mae_ = modeltrainer.initiate_model_trainer(train_arr, test_arr)
+    print(f'model_name:{best_model_name}')
+    print(f'R-squared:{r_squred}')
+    print(f'correlation:{correlation_}')
+    print(f'RMSE:{rmse_}')
+    print(f'MAE:{mae_}')
+
+
    

@@ -1,0 +1,3 @@
+[ 2023-12-05 15:32:37,931 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-05 15:32:37,934 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-05 15:33:06,163 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\app.py', reloading

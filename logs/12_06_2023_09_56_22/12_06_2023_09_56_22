@@ -1,0 +1,24 @@
+[ 2023-12-06 09:56:22,876 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-06 09:56:22,881 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-06 09:56:28,553 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 09:56:28,553 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 09:56:28,581 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 09:56:28] "[35m[1mPOST /calibration-engine-api/PM25/v1/ HTTP/1.1[0m" 500 -
+[ 2023-12-06 09:56:52,304 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 09:56:52,319 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 09:56:52,319 ] 38 root - INFO - Feature Engineering
+[ 2023-12-06 09:56:52,319 ] 44 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 09:56:52,319 ] 47 root - INFO - Make prediction
+[ 2023-12-06 09:56:53,730 ] 52 root - INFO - <class 'numpy.ndarray'>
+[ 2023-12-06 09:56:53,730 ] 55 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 09:56:53,730 ] 57 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 09:56:53,732 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 09:56:53] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 09:56:57,781 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 09:56:57,795 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 09:56:57,796 ] 38 root - INFO - Feature Engineering
+[ 2023-12-06 09:56:57,800 ] 44 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 09:56:57,800 ] 47 root - INFO - Make prediction
+[ 2023-12-06 09:56:59,007 ] 52 root - INFO - <class 'numpy.ndarray'>
+[ 2023-12-06 09:56:59,007 ] 55 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 09:56:59,007 ] 57 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 09:56:59,008 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 09:56:59] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 09:59:16,328 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\app.py', reloading

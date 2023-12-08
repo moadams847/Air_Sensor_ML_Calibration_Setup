@@ -16,7 +16,7 @@ from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path = os.path.join('artifacts', 'processor.pkl')
+    preprocessor_obj_file_path = os.path.join('artifacts', 'preprocessor.pkl')
 
 
 class DataTransformation:
@@ -31,7 +31,7 @@ class DataTransformation:
 
         '''
         try:
-            numerical_columns = ['PM2_5', 'Hum', 'Temp']
+            numerical_columns = ['PM2_5', 'PM_10', 'RH', 'Temp', 'PM2_5-PM10', 'Month', 'Hour']
 
             # [] #I don't have any
             # categorical_columns = categorical_columns
@@ -64,7 +64,6 @@ class DataTransformation:
 
                 ]
 
-
             )
 
             return preprocessor
@@ -72,7 +71,6 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e, sys)
         
-
 
     def initiate_data_transformation(self, train_path, test_path):
 
@@ -87,7 +85,7 @@ class DataTransformation:
 
             drop_from_df = ['DataDate', 'PM2.5']
             target_column_name = "PM2.5"
-            numerical_columns = ['PM2_5', 'RH', 'Temp']
+            numerical_columns = ['PM2_5', 'PM_10', 'RH', 'Temp', 'PM2_5-PM10', 'Month', 'Hour']
 
             input_feature_train_df = train_df.drop(columns=drop_from_df, axis=1)
             target_feature_train_df=train_df[target_column_name]
@@ -96,11 +94,8 @@ class DataTransformation:
             target_feature_test_df=test_df[target_column_name]
 
             logging.info( f"Applying preprocessing object on training dataframe and testing dataframe.")
-            
-        
             input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
-
 
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)

@@ -1,0 +1,19 @@
+[ 2023-12-06 09:44:47,034 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-06 09:44:47,038 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-06 09:45:55,159 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 09:45:55,173 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 09:45:55,174 ] 38 root - INFO - Feature Engineering
+[ 2023-12-06 09:45:55,179 ] 44 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 09:45:55,179 ] 47 root - INFO - Make prediction
+[ 2023-12-06 09:45:56,702 ] 53 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 09:45:56,704 ] 55 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 09:45:56,704 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 09:45:56] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 09:49:10,936 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 09:49:10,946 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 09:49:10,948 ] 38 root - INFO - Feature Engineering
+[ 2023-12-06 09:49:10,952 ] 44 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 09:49:10,952 ] 47 root - INFO - Make prediction
+[ 2023-12-06 09:49:12,161 ] 53 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 09:49:12,162 ] 55 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 09:49:12,162 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 09:49:12] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 09:50:20,273 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\dell latitude 7400\\desktop\\work\\ai_project_setup\\app.py', reloading

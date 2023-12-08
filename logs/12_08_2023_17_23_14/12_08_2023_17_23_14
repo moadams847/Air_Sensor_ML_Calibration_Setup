@@ -1,0 +1,17 @@
+[ 2023-12-08 17:23:15,871 ] 29 root - INFO - Entered the data ingestion method or component
+[ 2023-12-08 17:23:15,871 ] 31 root - INFO - Read the dataset as dataframe
+[ 2023-12-08 17:23:15,966 ] 35 root - INFO - Filter rows
+[ 2023-12-08 17:23:15,983 ] 38 root - INFO - Engineer columns
+[ 2023-12-08 17:23:16,285 ] 45 root - INFO - Train test split initiated
+[ 2023-12-08 17:23:16,602 ] 52 root - INFO - Ingestion of the data is completed
+[ 2023-12-08 17:23:16,663 ] 81 root - INFO - Read train and test data completed successfully
+[ 2023-12-08 17:23:16,663 ] 82 root - INFO - Obtaining preprocessing objects
+[ 2023-12-08 17:23:16,665 ] 58 root - INFO - Numerical columns: ['PM2_5', 'PM_10', 'RH', 'Temp', 'PM2_5-PM10', 'Month', 'Hour']
+[ 2023-12-08 17:23:16,665 ] 96 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-12-08 17:23:16,695 ] 108 root - INFO - Saved preprocessing object
+[ 2023-12-08 17:23:16,695 ] 39 root - INFO - Split training and test input data
+[ 2023-12-08 17:23:18,167 ] 241 root - INFO - {'sgd': 0.8441061594067903}
+[ 2023-12-08 17:30:58,150 ] 241 root - INFO - {'sgd': 0.8441061594067903, 'Random Forest': 0.9297510458725406}
+[ 2023-12-08 17:31:19,992 ] 241 root - INFO - {'sgd': 0.8441061594067903, 'Random Forest': 0.9297510458725406, 'XGBoost': 0.9242968407097095}
+[ 2023-12-08 17:31:19,993 ] 144 root - INFO - 0.9297510458725406
+[ 2023-12-08 17:31:19,993 ] 155 root - INFO - Best found model on both training and testing dataset

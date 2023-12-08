@@ -1,0 +1,7 @@
+[ 2023-12-05 11:21:42,005 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-05 11:21:42,007 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-05 11:22:10,106 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 11:22:10] "GET / HTTP/1.1" 200 -
+[ 2023-12-05 11:22:10,453 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 11:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-12-05 11:23:52,581 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 11:23:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-12-05 11:25:48,622 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Dec/2023 11:25:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-12-05 11:35:11,089 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\app.py', reloading

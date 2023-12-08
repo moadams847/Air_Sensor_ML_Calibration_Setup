@@ -1,0 +1,17 @@
+[ 2023-12-06 10:00:44,667 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-06 10:00:44,671 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-06 10:00:49,898 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 10:00:49,911 ] 34 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 10:00:49,912 ] 38 root - INFO - Feature Engineering
+[ 2023-12-06 10:00:49,916 ] 44 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 10:00:49,917 ] 47 root - INFO - Make prediction
+[ 2023-12-06 10:00:51,177 ] 53 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 10:00:51,185 ] 56 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 10:00:51,185 ] 58 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 10:00:51,186 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 10:00:51] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 10:04:15,602 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\dell latitude 7400\\Desktop\\work\\AI_Project_Setup\\app.py', reloading

@@ -1,0 +1,122 @@
+[ 2023-12-06 11:23:02,090 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-06 11:23:02,095 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-06 11:23:04,778 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:23:04,786 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:23:04,786 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:23:04,789 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:23:04,789 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:23:05,967 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:23:05,974 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:23:05,988 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:23:05,988 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:23:05,988 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:23:05] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 11:23:19,019 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:23:19,023 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:23:19,025 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:23:19,030 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:23:19,031 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:23:20,316 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:23:20,323 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:23:20,343 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:23:20,343 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:23:20,344 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:23:20] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 11:23:54,956 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:23:54,964 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:23:54,968 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:23:54,972 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:23:54,972 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:23:56,232 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:23:56,238 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:23:56,255 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:23:56,256 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:23:56,256 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:23:56] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 11:24:19,150 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:24:19,161 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:24:19,163 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:24:19,166 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:24:19,166 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:24:20,386 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:24:20,397 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:24:20,415 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:24:20,415 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:24:20,416 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:24:20] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 11:24:36,406 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:24:36,411 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:24:36,413 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:24:36,418 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:24:36,418 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:24:37,640 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:24:37,646 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:24:37,665 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:24:37,665 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:24:37,665 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:24:37] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 11:24:56,525 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 11:24:56,537 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 11:24:56,538 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 11:24:56,542 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 11:24:56,542 ] 48 root - INFO - Make prediction
+[ 2023-12-06 11:24:57,840 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 11:24:57,846 ] 59 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp  calibrated_PM2_5
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61          7.309615
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63          7.568879
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66          8.084586
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65          7.987312
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64          7.666869
+[ 2023-12-06 11:24:57,865 ] 62 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 11:24:57,865 ] 64 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 11:24:57,865 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 11:24:57] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -

@@ -1,0 +1,43 @@
+[ 2023-12-06 10:10:26,180 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-06 10:10:26,185 ] 96 werkzeug - INFO -  * Debugger PIN: 830-672-212
+[ 2023-12-06 10:10:31,134 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 10:10:31,148 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 10:10:31,149 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 10:10:31,166 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 10:10:31,166 ] 48 root - INFO - Make prediction
+[ 2023-12-06 10:10:32,365 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 10:10:32,372 ] 57 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64
+[ 2023-12-06 10:10:32,382 ] 61 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 10:10:32,383 ] 63 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 10:10:32,383 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 10:10:32] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 10:11:46,859 ] 29 root - INFO - Load JSON string and convert it to a Pandas DataFrame
+[ 2023-12-06 10:11:46,870 ] 35 root - INFO - Convert 'DataDate' column to datetime
+[ 2023-12-06 10:11:46,872 ] 39 root - INFO - Feature Engineering
+[ 2023-12-06 10:11:46,879 ] 45 root - INFO - Json data successfully converted to dataframe
+[ 2023-12-06 10:11:46,879 ] 48 root - INFO - Make prediction
+[ 2023-12-06 10:11:48,100 ] 54 root - INFO -    calibrated_PM2_5
+0          7.309615
+1          7.568879
+2          8.084586
+3          7.987312
+4          7.666869
+[ 2023-12-06 10:11:48,109 ] 57 root - INFO -         DataDate  PM2_5  PM_10     PM2.5     PM.10     RH   Temp
+0  1696187220000      5      5  7.374148  19.11100  100.5  26.61
+1  1696187280000      5      5  7.327665  19.93864  100.5  26.63
+2  1696187340000      5      5  7.248282  20.06616  100.5  26.66
+3  1696187400000      5      5  7.182676  19.95500  100.5  26.65
+4  1696187460000      5      5  7.170102  20.37817  100.5  26.64
+[ 2023-12-06 10:11:48,131 ] 61 root - INFO - Convert DataFrame to JSON
+[ 2023-12-06 10:11:48,131 ] 63 root - INFO - Dataframe successfully converted to Json Data
+[ 2023-12-06 10:11:48,132 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Dec/2023 10:11:48] "POST /calibration-engine-api/PM25/v1/ HTTP/1.1" 200 -
+[ 2023-12-06 10:12:13,354 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\dell latitude 7400\\desktop\\work\\ai_project_setup\\app.py', reloading
