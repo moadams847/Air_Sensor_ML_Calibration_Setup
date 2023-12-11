@@ -296,6 +296,7 @@ def convert_to_datetime(milliseconds):
     datetime_obj = datetime.utcfromtimestamp(timestamp_seconds)
     return datetime_obj
 
+
 def filter_data(df):
     try:
         # Combine all conditions into a single filtering operation
