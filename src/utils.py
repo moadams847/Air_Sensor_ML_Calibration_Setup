@@ -182,7 +182,7 @@
 # ##--------------------------------------------------------------------------
 import os
 import sys
-
+import pytz
 import numpy as np 
 import pandas as pd
 import dill
@@ -190,6 +190,7 @@ import pickle
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
 from src.logger import logging
+from datetime import datetime, timezone
 
 from src.exception import CustomException
 
@@ -264,7 +265,36 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e, sys)
+
+
+# Function to convert datetime to milliseconds
+def convert_to_milliseconds(FromDate, formatDate="%Y-%m-%d %H:%M:%S"):
+    date_ = datetime.strptime(FromDate, formatDate).strftime(formatDate)
+#     print(type(date_))
+#     print(date_)
     
+    date_format = datetime.strptime(date_, formatDate)
+#     print(type(date_format))
+#     print(date_format)
+
+    
+     #Set the timezone to UTC
+    fromdate_utc = pytz.utc.localize(date_format)
+#     print(type(fromdate_utc))
+#     print(fromdate_utc)
+    
+    
+    # Convert to milliseconds
+    fromdate_utc_in_milliseconds = int(fromdate_utc.timestamp() * 1000)
+
+    return fromdate_utc_in_milliseconds
+
+
+# Function to convert milliseconds to datetime
+def convert_to_datetime(milliseconds):
+    timestamp_seconds = milliseconds / 1000
+    datetime_obj = datetime.utcfromtimestamp(timestamp_seconds)
+    return datetime_obj
 
 def filter_data(df):
     try:

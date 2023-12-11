@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 from src.logger import logging
-from src.utils import preprocess_data, filter_data
+from src.utils import preprocess_data, filter_data, convert_to_datetime
 
 
 application = Flask(__name__)
@@ -28,6 +28,7 @@ def predict_datapoints():
         logging.info('Load JSON string and convert it to a Pandas DataFrame')
         json_data = request.json
         df = pd.read_json(json_data)
+        df['DataDate'] = df['DataDate'].apply(convert_to_datetime)  
         print(df)
 
         # Filter Rows
@@ -43,6 +44,7 @@ def predict_datapoints():
         # Engineer columns
         logging.info("Engineer columns")
         processed_df = preprocess_data(filtered_df)
+        logging.info(processed_df)
         print(processed_df)
 
         #Send columns to the model
