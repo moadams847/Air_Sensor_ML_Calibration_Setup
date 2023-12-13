@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 from src.logger import logging
-from src.utils import preprocess_data, filter_data, convert_to_datetime
+from src.utils import resample_and_merge_csv
 
 
 application = Flask(__name__)

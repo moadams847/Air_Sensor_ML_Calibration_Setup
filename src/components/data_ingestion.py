@@ -31,7 +31,8 @@ class DataIngestion:
         logging.info("Entered the data ingestion method or component")
         try:
             logging.info('Read the dataset as dataframe')
-            df=pd.read_csv('notebook\data\Teledyne_vs_sensor_data_ENE00950.csv', parse_dates=['DataDate'])
+            df = pd.read_csv('notebook/data/merge_raw_data_Teledyne/calibration_data_sets/merged_Teledyne_data_weather_data_ENE00933.csv', parse_dates=['DataDate'])
+            df.rename(columns={'PM10': 'PM_10'}, inplace=True)
             df = df[['DataDate','PM2.5','PM2_5', 'PM_10', 'RH', 'Temp']]
 
             logging.info('Filter rows')
